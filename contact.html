@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My favorite games | Contact</title>
+    <link rel="shortcut icon" href="./img/GameIcon.png" type="img/png" />
+  </head>
+  <header>
+    <h1>Contact</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/games/Overwatch2.html">Overwatch</a></li>
+      <li><a href="/games/Fortnite.html">Fortnite</a></li>
+      <li><a href="/games/Valorant.html">Valorant</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Contact</h2>
+    <form action="https://httpbin.org/post" method="POST">
+      <label for="favoriteGame">Your favorite game</label>s
+      <input type="text" name="favoriteGame" id="favoriteGame" />
+      <br />
+
+      <label for="description">Enter a description about the game</label>
+      <br />
+      <textarea
+        name="description"
+        id="description"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+
+      <label for="consent">Do you consent to sharing your information?</label>
+      <input type="checkbox" name="consent" id="consent" />
+      <br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </main>
+
+  <footer>
+    <br />
+    <small>DM &copy; 2023</small>
+  </footer>
+</html>

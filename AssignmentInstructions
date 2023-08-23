@@ -1,0 +1,21 @@
+# Requirements
+
+- Semantic HTML(element choice and organization. e.g. h1 sequencing)
+- Variety of elements
+  - different heading levels
+  - Ordered and unordered lists
+  - A form with at least 3 different input types
+- Images
+- Organized folder structure
+- Form should post to httpbin
+- Pages:
+  - Home
+  - 3 whatever pages
+  - Contact
+- Navigation should be clear and easy
+- Content:
+  - Have a clear site purpose that is easily understood
+    from the home page
+
+Recipe website can be a good idea to use both lists
+Due date: Tomorrow end of class
